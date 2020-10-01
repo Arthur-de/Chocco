@@ -1,0 +1,16 @@
+.features {
+  display: flex;
+  margin-right: 45px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.features__item {
+  margin-right: 46px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}

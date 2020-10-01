@@ -1,0 +1,11 @@
+.reviews__section {
+  position: relative;
+  background: url("/img/leaf-reviews.png") left top 57% no-repeat;
+
+  &:before {
+    content: url("/img/berries-reviews.png");
+    position: absolute;
+    bottom: -80px;
+    left: 0;
+  }
+}
