@@ -1,22 +1,22 @@
-.interactive-avatar {
-  width: 80px;
-  height: 80px;
- // border: 6px solid #0f5a47;
-  border: 6px solid transparent;
+.reviews__switcher-item {
+  width: rem(80px);
+  height: rem(80px);
+ // border: rem(6px) solid #0f5a47;
+  border: rem(6px) solid transparent;
   border-radius: 50%;
   overflow: hidden;
   position: relative;
-
-  &--active {
-    border-color:#0f5a47;
-  }
 
   &:hover {
     border-color:#0f5a47;
   }
 }
 
-.interactive-avatar__link {
+.reviews__switcher-item.active {
+  border-color:#0f5a47;
+}
+
+.reviews-switcher__link {
   position: absolute;
   top: 0;
   left: 0;
